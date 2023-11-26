@@ -1,0 +1,53 @@
+header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #004643c7;
+      padding-right: 50px;
+}
+.Logo {
+      display: flex;
+}
+.Logo h2 {
+      margin-top: 30px;
+}
+.Logo img {
+      width: 100px;
+      height: 110px;
+      padding: 5px;
+      margin: 5px 50px 5px 50px;
+      border-radius: 5px;
+      background-color: white;
+} 
+ul, header li{
+      list-style-type: none;
+      text-align: right;
+      justify-content: center;
+      display: inline;
+      padding: 40px 15px 0 15px;
+} 
+ul, header li a{
+      text-decoration: none;
+      color: white;
+      font-weight: 750;
+} 
+ul, header li a:hover {
+      color: rgb(0, 85, 255);
+      transition: .5s;
+}
+nav {
+      background-color: #e4e4df;
+}
+nav .navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+      padding-left: 100px;
+}
+
+footer {
+      text-align: center;
+      background-color: #004643c7;
+      color: white;
+      padding: 2px;
+
+}
